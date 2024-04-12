@@ -676,7 +676,14 @@ section.inner-page.destination {
 .modal-header h2 {
     color: #B08EAD;
 }
+
 .conversation-inner p a {
     color: #000;
     font-family: "Roboto", sans-serif;
+}
+
+section.inner-page.terms-condition {
+    background: url(../images/termn.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
