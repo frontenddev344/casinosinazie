@@ -2,6 +2,10 @@
     .site-navbar ul li {
         padding: 0;
     }
+
+    section.hero-sec {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -110,5 +114,15 @@
 
     .copyright_link {
         margin-bottom: 20px;
+    }
+
+    .footer-bottom .col-md-6:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .venetiaanse-content h3 {
+        font-size: 30px;
+
     }
 }
