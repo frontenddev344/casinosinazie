@@ -357,8 +357,6 @@ section.inner-page.contact {
     margin: 35px 0 0 35px;
 }
 
-
-
 section.vibrant {
     padding: 60px 0;
 }
@@ -439,7 +437,6 @@ section.immerse {
 .venetiaanse-wrapper.visual {
     padding-top: 50px;
 }
-
 
 section.inner-page.cuisines {
     background: url(../images/Asian-cuisines.jpg)no-repeat;
@@ -523,8 +520,6 @@ section.inner-page.destination {
     background-position: center;
 }
 
-
-
 /*footer start*/
 .site-footer {
     background-color: #212121;
@@ -547,8 +542,6 @@ section.inner-page.destination {
     padding-bottom: 10px;
     color: var(--white);
 }
-
-
 
 .social {
     padding: 10px 0;
@@ -576,7 +569,6 @@ section.inner-page.destination {
     height: 100%;
     padding: 10px;
 }
-
 
 .useful-links h4 {
     font-size: 24px;
