@@ -377,65 +377,6 @@ section.vibrant {
     line-height: 32px;
 }
 
-footer.footer {
-    padding: 60px 0;
-}
-
-footer.footer .footer-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer.footer .footer-logo img {
-    max-width: 250px;
-}
-
-.copyright_text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.copyright_part {
-    background-color: #F4EDF2;
-    padding: 30px 0px;
-}
-
-.social_icon a {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    background-color: #4B3049;
-    line-height: 45px;
-    color: #fff;
-    display: inline-block;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-}
-
-.social_icon a:hover {
-    background-color: #E4D3DF;
-}
-
-.social_icon {
-    text-align: right;
-}
-
-.footer_menu_item a {
-    display: inline-block;
-    color: #4B3049;
-    font-size: 16px;
-    padding: 0 6px;
-    font-family: "Roboto", sans-serif;
-}
-
-.copyright_link a {
-    color: #4B3049;
-    margin-left: 40px;
-    font-family: "Roboto", sans-serif;
-}
-
 section.inner-page.casino {
     background: url(../images/Casino-banner.jpg)no-repeat;
     background-position: center;
@@ -501,7 +442,7 @@ section.immerse {
 
 
 section.inner-page.cuisines {
-    background: url(../images/cuisines.jpg)no-repeat;
+    background: url(../images/Asian-cuisines.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -580,4 +521,133 @@ section.inner-page.destination {
     background: url(../images/Destination.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+/*footer start*/
+.site-footer {
+    background-color: #212121;
+    padding: 80px 0 0;
+    text-align: center;
+}
+
+.footer-logo {
+    padding: 10px 0;
+    height: 100%;
+}
+
+.footer-logo-content {
+    padding-top: 20px;
+}
+
+.footer-logo-content p {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--white);
+}
+
+.footer-logo img {
+    width: 300px;
+}
+
+.social {
+    padding: 10px 0;
+    height: 100%;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    font-size: 24px;
+    background: var(--white);
+    margin: 0 5px;
+    transition: all 0.2s linear;
+    color: #b08ead;
+}
+
+.social a:hover {
+    border-radius: 50%;
+}
+
+.useful-links {
+    height: 100%;
+    padding: 10px;
+}
+
+
+.useful-links h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0;
+    color: var(--white);
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding: 10px 0;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-nav a:hover {
+    color: #b08ead;
+    text-decoration: underline;
+}
+
+.social h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    color: var(--white);
+}
+
+.footer-bottom {
+    border-top: 1px solid #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom .col-md-6:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+.terms-condition a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+}
+
+.terms-condition a:hover {
+    color: #b08ead;
+}
+
+.privacy-policy a {
+
+    display: inline-block;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+}
+
+.privacy-policy a:hover {
+    color: #b08ead;
+}
+.copyright p {
+    color: #ffff;
+    text-transform: capitalize;
 }
