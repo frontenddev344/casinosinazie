@@ -262,12 +262,17 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- 
+
     <script>
         $(document).ready(function () {
-            $('#myModal').modal('show'); // Trigger the modal on page load
+            // Check if the modal has been shown before
+            if (!localStorage.getItem('modalShown')) {
+                $('#myModal').modal('show'); // Trigger the modal
+                localStorage.setItem('modalShown', true); // Set flag to indicate modal has been shown
+            }
         });
-    </script> -->
+    </script>
+
 
 
 

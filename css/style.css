@@ -647,7 +647,42 @@ section.inner-page.destination {
 .privacy-policy a:hover {
     color: #b08ead;
 }
+
 .copyright p {
     color: #ffff;
     text-transform: capitalize;
+}
+
+.modal-body P {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.done-btn button.btn {
+    display: inline-block;
+    padding: 11px 36px;
+    border-radius: 5px;
+
+    background-color: #B08EAD;
+    border: 1px solid #B08EAD;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.done-btn button.btn:hover {
+    background-color: transparent;
+    color: #B08EAD;
+}
+
+.done-btn {
+    margin: 10px 20px 20px;
+}
+
+.modal-header h2 {
+    color: #B08EAD;
 }
